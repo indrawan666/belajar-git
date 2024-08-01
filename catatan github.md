@@ -8,9 +8,9 @@
 1. *Buat Repositori GitHub Baru*:
    - Login ke akun GitHub Anda.
    **- Klik tombol "New" untuk membuat repositori baru.**
-          ![[asset/Pasted_image_20240730203037.png]]
+          ![relasi|100x][asset/Pasted_image_20240730203037.PNG]]
    **- Berikan nama repositori, pilih apakah akan bersifat publik atau privat, lalu klik "Create repository".**
-        ![[asset/Pasted_image_20240730203011.png]]
+        ![[asset/Pasted_image_20240730203011.PNG]]
 ## pwd
 `$ pwd` adalah perintah yang digunakan untuk "Print Working Directory" atau menampilkan direktori kerja saat ini.
 
@@ -18,7 +18,7 @@ Jika Anda menjalankan perintah `$ pwd` dalam terminal atau command prompt, has
 
 Contoh hasil dari perintah `$ pwd`:
 
-![[asset/Pasted_image_20240731124529.png]]
+![[asset/Pasted_image_20240731124529.PNG]]
 ## Git version:
    Perintah `git --version` digunakan untuk menampilkan versi Git yang terinstall pada komputer Anda.
     **Fungsi**: Perintah ini berguna untuk memeriksa versi Git yang Anda gunakan, yang dapat bermanfaat dalam mengidentifikasi dan mengatasi masalah kompatibilitas.
@@ -27,7 +27,7 @@ Contoh hasil dari perintah `$ pwd`:
 git --version
 ```
 
-![[Pasted_image_20240730205155.png]]
+![[asset/Pasted_image_20240730205155.PNG]]
 ## Git init:
    - Buka terminal atau command prompt, lalu navigasi ke direktori tempat Anda menyimpan kode.
    - Jalankan perintah berikut untuk menginisialisasi Git:
@@ -150,11 +150,46 @@ git push  origin master
 
 Itulah langkah-langkah dasar untuk mengirim kode dari Git ke GitHub menggunakan aplikasi Obsidian. 
 
+## Akses Folder Proyek di Gitbash
+
+ ### cd (direktori)
+
+```cs
+cd obsidian
+```
+1. - Buka terminal atau command prompt di komputer Anda.
+    - Jalankan perintah "cd obsidian" untuk berpindah ke direktori "obsidian".
+    - Setelah itu, Anda dapat menjalankan perintah-perintah lain di dalam direktori "obsidian".
+    -![[asset/Pasted_image_20240730215258.png]]
+
+### ls
+- `   ls` - Menampilkan daftar file dan direktori di direktori saat ini.
+- `ls direktori` - Menampilkan daftar file dan direktori di dalam direktori yang ditentukan.
+```cs
+ls
+```
+![[asset/Pasted_image_20240730215510.png]]
+
+# Hubungkan Folder  Proyek Lokal
+inisialisasi repository git init
+
+hubungkan ke repository git remote 
+
+ tampilkan status commit / koneksi file ke git hub  `git status`
+
+tambahhkan file-file baru atau perubahan menggunkan git add .
+
+tampilkan status commit /koneksi file ke github  `git status`
+
+
+
+
 
 
 
 
 ![](![[Screenshot 2024-07-31 130324.png]])
+
 
 
 
