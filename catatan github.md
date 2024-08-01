@@ -8,9 +8,9 @@
 1. *Buat Repositori GitHub Baru*:
    - Login ke akun GitHub Anda.
    **- Klik tombol "New" untuk membuat repositori baru.**
-          ![[Pasted image 20240730203037.png]]
+          ![[asset/Pasted_image_20240730203037.png]]
    **- Berikan nama repositori, pilih apakah akan bersifat publik atau privat, lalu klik "Create repository".**
-        ![[Pasted image 20240730203011.png]]
+        ![[asset/Pasted_image_20240730203011.png]]
 ## pwd
 `$ pwd` adalah perintah yang digunakan untuk "Print Working Directory" atau menampilkan direktori kerja saat ini.
 
@@ -18,7 +18,7 @@ Jika Anda menjalankan perintah `$ pwd` dalam terminal atau command prompt, has
 
 Contoh hasil dari perintah `$ pwd`:
 
-![[Pasted image 20240731124529.png]]
+![[asset/Pasted_image_20240731124529.png]]
 ## Git version:
    Perintah `git --version` digunakan untuk menampilkan versi Git yang terinstall pada komputer Anda.
     **Fungsi**: Perintah ini berguna untuk memeriksa versi Git yang Anda gunakan, yang dapat bermanfaat dalam mengidentifikasi dan mengatasi masalah kompatibilitas.
@@ -27,14 +27,14 @@ Contoh hasil dari perintah `$ pwd`:
 git --version
 ```
 
-![[Pasted image 20240730205155.png]]
+![[Pasted_image_20240730205155.png]]
 ## Git init:
    - Buka terminal atau command prompt, lalu navigasi ke direktori tempat Anda menyimpan kode.
    - Jalankan perintah berikut untuk menginisialisasi Git:
      ```cs
      git init
 ```
-![[Pasted image 20240730205613.png]]
+![[asset/Pasted_image_20240730205613.png]]
 Perintah ini digunakan untuk memulai menggunakan Git pada suatu proyek. Setelah menjalankan `git init`, direktori saat ini akan berubah menjadi repositori Git yang dapat digunakan untuk melacak perubahan pada proyek.
 
 
@@ -48,17 +48,9 @@ Perintah ini digunakan untuk memulai menggunakan Git pada suatu proyek. Setelah 
   ```
 
    - Perintah git add . akan menambahkan semua file baru dan perubahan ke staging area.
-![[Pasted image 20240731073247.png]]
+![[asset/Pasted_image_20240731073247.png]]
 
- *Hubungkan ke Repositori GitHub*:a
-   - Jalankan perintah berikut untuk menghubungkan repositori lokal Anda ke repositori GitHub yang telah Anda buat sebelumnya
-   - Perintah ini berfungsi untuk menambahkan referensi ke repositori remote yang akan digunakan sebagai "origin" atau sumber utama dari repositori Anda. Setelah menjalankan perintah ini, Anda dapat melakukan push dan pull perubahan antara repositori lokal dan remote.
-     ```cs
-
-     git remote add origin https://github.com/username/nama-repository.git
-     ```
-   - Ganti username dan nama-repository dengan nama pengguna GitHub Anda dan nama repositori yang Anda buat.
-
+ 
 ## GIT --LIST
 git config --list 
 Perintah `git config --list` digunakan untuk menampilkan semua konfigurasi Git yang telah diatur pada komputer atau repository tertentu.
@@ -67,7 +59,7 @@ FUNGSI:Perintah ini berguna untuk melihat semua pengaturan Git yang aktif, seper
 ```cs
 `git config --list`
 ```
-![[Pasted image 20240730204624.png]]
+![[asset/Pasted_image_20240730204624.png]]
 
 ## git config
  ## ***git config --global 
@@ -80,7 +72,7 @@ FUNGSI:Perintah ini berguna untuk melihat semua pengaturan Git yang aktif, seper
 ```Cs
 git config --global user.name "Indrawan666"
 ```
-![[Pasted image 20240730211312.png]]
+![[asset/Pasted_image_20240730211312.png]]
 
 ```cs
 git config --global user.email "wawancaraa79@gmail.com"
@@ -101,7 +93,7 @@ cd obsidian
 1. - Buka terminal atau command prompt di komputer Anda.
     - Jalankan perintah "cd obsidian" untuk berpindah ke direktori "obsidian".
     - Setelah itu, Anda dapat menjalankan perintah-perintah lain di dalam direktori "obsidian".
-    -![[Pasted image 20240730215258.png]]
+    -![[asset/Pasted_image_20240730215258.png]]
 
 ## ls
 - `   ls` - Menampilkan daftar file dan direktori di direktori saat ini.
@@ -109,7 +101,7 @@ cd obsidian
 ```cs
 ls
 ```
-![[Pasted image 20240730215510.png]]
+![[asset/Pasted_image_20240730215510.png]]
 
 ## remote add origin
 
@@ -144,7 +136,7 @@ remote add origin https://github.com/indrawan666/belajar-git.git
 
 
 
-##  ## Unggah ke GitHub   git push origin master
+##  git push origin master
    Terakhir, jalankan perintah berikut untuk mengunggah kode Anda ke GitHub:
    ```cs
 git push  origin master
@@ -152,11 +144,18 @@ git push  origin master
 -  push`: Berfungsi untuk mengunggah (push) perubahan dari repositori lokal ke repositori remote.
 - `origin`: Nama remote repository yang telah ditambahkan sebelumnya menggunakan perintah `git remote add`.
 - `master`: Nama cabang yang akan diunggah ke repositori remote.
-![[Pasted image 20240730211106.png]]
+![[asset/Pasted_image_20240730211106.png]]
  dan login sesuai akun git hub yang anda buat 
- ![[Pasted image 20240731130702.png]]
+ ![[asset/Pasted_image_20240731130702.png]]
 
 Itulah langkah-langkah dasar untuk mengirim kode dari Git ke GitHub menggunakan aplikasi Obsidian. 
+
+
+
+
+
+![](![[Screenshot 2024-07-31 130324.png]])
+
 
 
 
