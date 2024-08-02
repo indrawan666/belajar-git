@@ -8,12 +8,8 @@
 1. *Buat Repositori GitHub Baru*: 
    - Login ke akun GitHub Anda.
    **- Klik tombol "New" untuk membuat repositori baru.**
-<<<<<<< HEAD
-          ![](asset/Pasted_image_20240730203037.png)
-=======
-
-          ![relasi|100x][asset/Pasted_image_20240730203037.png]]
->>>>>>> 9e1772273021b3049c7fc10f2fdf81337237f100
+ 
+     ![](asset/Pasted_image_20240730203037.png)
    **- Berikan nama repositori, pilih apakah akan bersifat publik atau privat, lalu klik "Create repository".**
         ![[Pasted_image_20240730203011.png]]
 ## pwd
