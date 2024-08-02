@@ -5,12 +5,12 @@
 2. Instal Git di komputer Anda jika belum terpasang.
 3. Buka aplikasi Obsidian dan buat catatan baru untuk menyimpan materi ini.
 ## Langkah-langkah
-1. *Buat Repositori GitHub Baru*:
+1. *Buat Repositori GitHub Baru*: 
    - Login ke akun GitHub Anda.
    **- Klik tombol "New" untuk membuat repositori baru.**
-          ![relasi|100x][asset/Pasted_image_20240730203037.PNG]]
+          ![](asset/Pasted_image_20240730203037.png)
    **- Berikan nama repositori, pilih apakah akan bersifat publik atau privat, lalu klik "Create repository".**
-        ![[asset/Pasted_image_20240730203011.PNG]]
+        ![[Pasted_image_20240730203011.png]]
 ## pwd
 `$ pwd` adalah perintah yang digunakan untuk "Print Working Directory" atau menampilkan direktori kerja saat ini.
 
