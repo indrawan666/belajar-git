@@ -11,7 +11,7 @@
  
      ![](asset/Pasted_image_20240730203037.png)
    **- Berikan nama repositori, pilih apakah akan bersifat publik atau privat, lalu klik "Create repository".**
-        ![](Pasted_image_20240730203011.png)
+        ![](asset/Pasted_image_20240730203011.png)
 ## pwd
 `$ pwd` adalah perintah yang digunakan untuk "Print Working Directory" atau menampilkan direktori kerja saat ini.
 
