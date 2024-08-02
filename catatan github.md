@@ -19,7 +19,10 @@ Jika Anda menjalankan perintah `$ pwd` dalam terminal atau command prompt, has
 
 Contoh hasil dari perintah `$ pwd`:
 
-![](asset/111.PNG)
+![](asset/111.PNG) 
+
+
+
 ## Git version:
    Perintah `git --version` digunakan untuk menampilkan versi Git yang terinstall pada komputer Anda.
     **Fungsi**: Perintah ini berguna untuk memeriksa versi Git yang Anda gunakan, yang dapat bermanfaat dalam mengidentifikasi dan mengatasi masalah kompatibilitas.
