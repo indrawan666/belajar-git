@@ -59,16 +59,18 @@ git --version
      ```cs
      git init
 ```
-![](asset/init.png)
+ ![](asset/init.png)
 Perintah ini digunakan untuk memulai menggunakan Git pada suatu proyek. Setelah menjalankan `git init`, direktori saat ini akan berubah menjadi repositori Git yang dapat digunakan untuk melacak perubahan pada proyek.
 
 
- 
+
+
 ## 4. cd (direktori) 
 1. Buka terminal atau command prompt di komputer Anda. - Jalankan perintah "cd obsidian" untuk berpindah ke direktori "obsidian". - Setelah itu, Anda dapat menjalankan perintah-perintah lain di dalam direktori "obsidian".
 ![](asset/Pasted_image_20240730215258.png)
 
- 
+
+
 ## 5.GIT --LIST
 git config --list 
 Perintah git config --listdigunakan untuk menampilkan semua konfigurasi Git yang telah diatur pada komputer atau repository tertentu.
