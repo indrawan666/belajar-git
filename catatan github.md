@@ -42,7 +42,7 @@
 Jika Anda menjalankan perintah `$ pwd` dalam terminal atau command prompt, hasilnya akan menunjukkan jalur lengkap dari direktori tempat Anda berada saat ini.
 
 Contoh hasil dari perintah `$ pwd`:
-![](asset/111.PNG) 
+  ![](asset/pwd.png)
 
 ## 2.Git version:
    Perintah `git --version` digunakan untuk menampilkan versi Git yang terinstall pada komputer Anda.
@@ -51,9 +51,8 @@ Contoh hasil dari perintah `$ pwd`:
 ```cs
 git --version
 ```
-
-![](asset/22.PNG)
-![](asset/22)
+![](asset/version.png)
+ 
 ## 3.Git init:
    - Buka terminal atau command prompt, lalu navigasi ke direktori tempat Anda menyimpan kode.
    - Jalankan perintah berikut untuk menginisialisasi Git:
@@ -61,8 +60,10 @@ git --version
      git init
 ```
 
+contoh:
+  ![](asset/init.png)
 
-![](asset/33.PNG)
+
 Perintah ini digunakan untuk memulai menggunakan Git pada suatu proyek. Setelah menjalankan `git init`, direktori saat ini akan berubah menjadi repositori Git yang dapat digunakan untuk melacak perubahan pada proyek.
 
 
