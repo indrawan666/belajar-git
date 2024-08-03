@@ -281,16 +281,7 @@ ls
 
 
 
-# Hubungkan Folder  Proyek Lokal
-inisialisasi repository git init
 
-hubungkan ke repository git remote 
-
- tampilkan status commit / koneksi file ke git hub  `git status`
-
-tambahhkan file-file baru atau perubahan menggunkan git add .
-
-tampilkan status commit /koneksi file ke github  `git status`
 
 
 
