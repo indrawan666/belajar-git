@@ -80,7 +80,7 @@ FUNGSI:Perintah ini berguna untuk melihat semua pengaturan Git yang aktif, seper
 ![](asset/Pasted_image_20240730204624.png)
 
 ## 6.git config --global
- ## ***git config --global 
+l 
  - `git config`: Perintah ini digunakan untuk melihat, mengatur, dan mengelola pengaturan konfigurasi dalam Git.
 - `--global`: Menandakan bahwa pengaturan ini berlaku secara global, bukan hanya untuk repositori tertentu.
 - `user.name`: Menunjukkan bahwa pengaturan ini untuk nama pengguna.
