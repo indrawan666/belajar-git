@@ -54,29 +54,32 @@ git --version
 ![](asset/version.png)
  
 ## 3.Git init:
-   - Buka terminal atau command prompt, lalu navigasi ke direktori tempat Anda menyimpan kode.
-   - Jalankan perintah berikut untuk menginisialisasi Git:
-     ```cs
-     git init
-```
+-   
+    Perintah `git init` digunakan untuk membuat repositori Git baru.
+- Ketika Anda menjalankan `git init` di dalam sebuah direktori, itu akan membuat direktori tersembunyi `.git` di dalam direktori tersebut, di mana Git menyimpan semua metadata dan objek file untuk repositori Anda.
+- Setelah menjalankan `git init`, Anda dapat mulai melacak perubahan pada file-file di direktori tersebut menggunakan perintah Git lainnya.
+
+
+
 ![](asset/init.png)
-Perintah ini digunakan untuk memulai menggunakan Git pada suatu proyek. Setelah menjalankan `git init`, direktori saat ini akan berubah menjadi repositori Git yang dapat digunakan untuk melacak perubahan pada proyek.
 
 
  
 ## 4. cd (direktori) 
-1. Buka terminal atau command prompt di komputer Anda. - Jalankan perintah "cd obsidian" untuk berpindah ke direktori "obsidian". - Setelah itu, Anda dapat menjalankan perintah-perintah lain di dalam direktori "obsidian".
+- `cd` adalah perintah shell baris komando, bukan perintah Git.
+- `cd` singkatan dari "change directory" dan digunakan untuk berpindah di antara direktori dalam sistem file Anda.
+- Sebagai contoh, `cd Documents` akan mengubah direktori kerja saat ini menjadi folder "Documents".
+- Perintah ini dapat digunakan bersamaan dengan perintah Git untuk beralih ke direktori yang sesuai sebelum menjalankan perintah Git.
+
 ![](asset/Pasted_image_20240730215258.png)
 
  
-## 5.GIT --LIST
-git config --list 
-Perintah git config --listdigunakan untuk menampilkan semua konfigurasi Git yang telah diatur pada komputer atau repository tertentu.
-FUNGSI:Perintah ini berguna untuk melihat semua pengaturan Git yang aktif, seperti username, email, remote repository, dan lainnya.
+## 5. GIT --LIST
 
-```cs
-`git config --list`
-```
+- Perintah Git terdekat adalah `git config --list`, yang akan mencantumkan semua variabel konfigurasi dan nilainya yang saat ini telah diatur oleh Git.
+- Perintah ini dapat berguna untuk memeriksa pengaturan konfigurasi Git global dan lokal di sistem Anda.
+
+
 ![](asset/Pasted_image_20240730204624.png)
 
 ## 6.git config
