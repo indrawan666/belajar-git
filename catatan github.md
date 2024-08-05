@@ -147,7 +147,7 @@ remote add origin https://github.com/indrawan666/belajar-git.git
 
      git commit -m "Pesan commit"
      ```
-![](Pasted image 20240730205753.png)
+
 ![](asset/Pasted_image_20240730221633.png)
 
 
