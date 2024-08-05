@@ -54,27 +54,13 @@ git --version
 ![](asset/version.png)
  
 ## 3.Git init:
-<<<<<<< HEAD
 -   
     Perintah `git init` digunakan untuk membuat repositori Git baru.
 - Ketika Anda menjalankan `git init` di dalam sebuah direktori, itu akan membuat direktori tersembunyi `.git` di dalam direktori tersebut, di mana Git menyimpan semua metadata dan objek file untuk repositori Anda.
 - Setelah menjalankan `git init`, Anda dapat mulai melacak perubahan pada file-file di direktori tersebut menggunakan perintah Git lainnya.
 
 
-
 ![](asset/init.png)
-=======
-   - Buka terminal atau command prompt, lalu navigasi ke direktori tempat Anda menyimpan kode.
-   - Jalankan perintah berikut untuk menginisialisasi Git:
-     ```cs
-     git init
-```
- ![](asset/init.png)
-Perintah ini digunakan untuk memulai menggunakan Git pada suatu proyek. Setelah menjalankan `git init`, direktori saat ini akan berubah menjadi repositori Git yang dapat digunakan untuk melacak perubahan pada proyek.
->>>>>>> 85201a1da7c1ff1824a544393ffe4bfec285ec55
-
-
-
 
 ## 4. cd (direktori) 
 - `cd` adalah perintah shell baris komando, bukan perintah Git.
@@ -84,25 +70,16 @@ Perintah ini digunakan untuk memulai menggunakan Git pada suatu proyek. Setelah 
 
 ![](asset/Pasted_image_20240730215258.png)
 
-<<<<<<< HEAD
- 
-## 5. GIT --LIST
-
-- Perintah Git terdekat adalah `git config --list`, yang akan mencantumkan semua variabel konfigurasi dan nilainya yang saat ini telah diatur oleh Git.
-- Perintah ini dapat berguna untuk memeriksa pengaturan konfigurasi Git global dan lokal di sistem Anda.
-
-=======
-
 
 ## 5.GIT --LIST
 git config --list 
 Perintah git config --listdigunakan untuk menampilkan semua konfigurasi Git yang telah diatur pada komputer atau repository tertentu.
 FUNGSI:Perintah ini berguna untuk melihat semua pengaturan Git yang aktif, seperti username, email, remote repository, dan lainnya.
->>>>>>> 85201a1da7c1ff1824a544393ffe4bfec285ec55
+
 
 ![](asset/Pasted_image_20240730204624.png)
 
-## 6.git config
+## 6.git config --global
  ## ***git config --global 
  - `git config`: Perintah ini digunakan untuk melihat, mengatur, dan mengelola pengaturan konfigurasi dalam Git.
 - `--global`: Menandakan bahwa pengaturan ini berlaku secara global, bukan hanya untuk repositori tertentu.
